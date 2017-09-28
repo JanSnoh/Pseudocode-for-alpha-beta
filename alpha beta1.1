@@ -35,6 +35,6 @@ def best (Gamestate, iterations)
 			error = (W1*(carrot_error)+W2*(salads-optimal_salads)^2 -W3*distance_traveled
 			if error < smallest_error 
 				smallest_error =error
-				best Move = i
+				best Move = any possible move //best_move wird nicht verwendet also nicht wichtig
 		return (smallest error, best_move)
 	
